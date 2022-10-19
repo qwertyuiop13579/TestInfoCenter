@@ -1,9 +1,8 @@
-@import 'fonts';
+@import "fonts";
 
 body {
-  font-family: Roboto;
-  background-color: black;
-  span {
-    color: green;
-  }
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  font-weight: 400;
+  background-color: white;
 }
