@@ -3,7 +3,7 @@
 @import "null";
 
 @import "header";
-
+@import "intro";
 
 body {
   font-family: "Roboto Regular";
@@ -17,4 +17,20 @@ body {
 ._container {
   max-width: $maxWidthContainer;
   margin: 0 auto;
+
+  @media (max-width: $md1) {
+    max-width: 1000px;
+  }
+
+  @media (max-width: $md2) {
+    max-width: 900px;
+  }
+
+  @media (max-width: $md3) {
+    max-width: 700px;
+  }
+
+  @media (max-width: $md4) {
+    max-width: 500px;
+  }
 }

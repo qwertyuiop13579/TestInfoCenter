@@ -1,0 +1,171 @@
+.intro {
+  background: url("../img/intro_bg.png") no-repeat;
+  background-size: cover;
+
+  // .intro__container
+  &__container {
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    @media (max-width: $md4) {
+      padding-bottom: 100px;
+    }
+
+    @media (max-width: $md5) {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    @media (max-width: $md6) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
+  // .intro__content
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 780px;
+
+    @media (max-width: $md5) {
+      padding: 20px;
+      gap: 60px;
+    }
+  }
+
+  // .intro__title
+  &__title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: calc(58 / 48) * 100%;
+    color: $primary;
+    text-transform: uppercase;
+
+    @media (max-width: $md3) {
+      font-size: 42px;
+    }
+
+    @media (max-width: $md4) {
+      font-size: 36px;
+    }
+
+    @media (max-width: $md5) {
+      font-size: 30px;
+    }
+
+    @media (max-width: $md6) {
+      font-size: 26px;
+    }
+  }
+
+  // .intro__title_blue
+  &__title_blue {
+    color: $secondary;
+  }
+
+  // .intro__btns
+  &__btns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    @media (max-width: $md6) {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+}
+
+.info {
+  // .info__text
+  &__text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(24 / 20) * 100%;
+    color: $primary;
+    margin-bottom: 10px;
+  }
+
+  // .info__list
+  &__list {
+    margin-left: 20px;
+  }
+
+  // .info__element
+  &__element {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(24 / 20) * 100%;
+    color: $primary;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  &__element::before {
+    position: absolute;
+    content: "-";
+    left: -15px;
+  }
+}
+
+.btn-order {
+  width: 183px;
+  height: 43px;
+  background: $secondary;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: calc(16 / 13) * 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+
+  &:hover {
+    color: $black;
+    border-color: $black;
+  }
+}
+
+.btn-info {
+  width: 183px;
+  height: 43px;
+  background: #ffffff;
+  border: 1px solid $primary;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: calc(16 / 13) * 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $primary;
+
+  &:hover {
+    color: $secondary;
+    border-color: $secondary;
+  }
+}
