@@ -33,6 +33,67 @@
 
             </div>
         </section>
+
+        <section class="order">
+            <div class="order__container _container">
+                <div class="order__title">making&nbsp;<span class="order__title_blue">an order</span></div>
+                <div class="order__text">Before filling out the form, check out our work scheme!</div>
+                <div class="order__scheme">
+                    <div class="element">
+                        <div class="element__img-wrapper">
+                            <img src="./img/order/search.svg" alt="search" class="element__img">
+                        </div>
+                        <div class="element__text">Lorem ipsum dolor sit amet</div>
+                    </div>
+                    <div class="element">
+                        <div class="element__img-wrapper">
+                            <img src="./img/order/percent.svg" alt="percent" class="element__img">
+                        </div>
+                        <div class="element__text">Сonsecteturadipiscing elit</div>
+                    </div>
+                    <div class="element">
+                        <div class="element__img-wrapper">
+                            <img src="./img/order/subtract.svg" alt="subtract" class="element__img">
+                        </div>
+                        <div class="element__text">Sed do eiusmod tempor</div>
+                    </div>
+                    <div class="element">
+                        <div class="element__img-wrapper">
+                            <img src="./img/order/mail.svg" alt="mail" class="element__img">
+                        </div>
+                        <div class="element__text">Esse cillum dolore eu fugiat</div>
+                    </div>
+                    <div class="element">
+                        <div class="element__img-wrapper">
+                            <img src="./img/order/money.svg" alt="money" class="element__img">
+                        </div>
+                        <div class="element__text">Excepteur sint occaecat cupidatat non proident</div>
+                    </div>
+                </div>
+                <form class="order__form form">
+                    <input type="text" placeholder="select" class="form__select">
+                    <input type="email" placeholder="Your e-mail" class="form__mail" required>
+                    <input type="text" placeholder="Your name" class="form__name" required>
+                    <div class="form__range-wrapper range">
+                        <div class="range__info">
+                            <div class="range__text">Sed ut perspiciatis, unde omnis iste natus</div>
+                            <div class="range__value" id="range__value"></div>
+                        </div>
+                        <input type="range" min="1" max="100" value="75" step="1" class="range__input"
+                            id="range__input">
+                    </div>
+
+                    <label for="form-input-file" class="form__file-label">
+                        <img src="./img/order/attach_file.svg" alt="file"></img>Attach a file</label>
+                    <input type="file" id="form-input-file" hidden>
+
+                    <div class="form__submit-wrapper">
+                        <button type="submit" class="form__submit">Send</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
     </main>
     @@include('html/footer.html')
     <script src="js/app.min.js"></script>
