@@ -320,7 +320,7 @@ select {
 }
 
 .order__title {
-  font-family: "Roboto";
+  font-family: Lato;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -626,7 +626,7 @@ select {
   background: #07c8c8;
   border: 1px solid #ffffff;
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: Lato;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
