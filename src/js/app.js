@@ -81,11 +81,11 @@ a.addEventListener("click", function (e) {
     this.nextSibling.classList.toggle("select-hide");
     if (this.classList.contains("select-active")) {
         this.classList.remove("select-active");
-        img.src = "../img/order/arrow.svg";
+        img.src = "./img/order/arrow.svg";
     }
     else {
         this.classList.add("select-active");
-        img.src = "../img/order/arrow-reverse.svg";
+        img.src = "./img/order/arrow-reverse.svg";
     }
 });
 
