@@ -4,7 +4,7 @@
 
   // .intro__container
   &__container {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 200px;
 
     @media (max-width: $md4) {
@@ -12,12 +12,12 @@
     }
 
     @media (max-width: $md5) {
-      padding-top: 80px;
+      padding-top: 160px;
       padding-bottom: 80px;
     }
 
     @media (max-width: $md6) {
-      padding-top: 60px;
+      padding-top: 130px;
       padding-bottom: 60px;
     }
   }
